@@ -8,16 +8,12 @@ La finalidad de este repositorio es mantener una configuración global, exportab
 Este proyecto contiene archivos de configuración (`mcp.json`, `package.json`, etc.) para definir y gestionar servidores MCP que pueden ser consultados por VSCode u otros clientes MCP.
 
 ## Demo
+<strong>Utilizando MCP Jira/Confluence</strong>
+![alt text](imgs/image-jira.png)
 
-<details>
-	<summary><strong>Utilizando MCP Qase</strong></summary>
-</details>
-<details>
-	<summary><strong>Utilizando MCP Jira/Confluence</strong></summary>
-</details>
-<details>
-	<summary><strong>Utilizando MCP Github</strong></summary>
-</details>
+<strong>Utilizando MCP Qase</strong>
+![alt text](imgs/image-qase-1.png)
+![alt text](imgs/image-qase-2.png)
 
 ## Estructura
 - `mcp.json`: Configuración de los servidores MCP (rutas, comandos, endpoints).
@@ -47,6 +43,7 @@ Este proyecto contiene archivos de configuración (`mcp.json`, `package.json`, e
 
 | Nombre                   | URL documentación |
 |--------------------------|-------------------------------|
+| Aprende MCP desde 0          | [https://www.youtube.com/watch?v=wnHczxwukYY](https://https://www.youtube.com/watch?v=wnHczxwukYY) |
 | @playwright/mcp          | [https://www.npmjs.com/package/@playwright/mcp](https://www.npmjs.com/package/@playwright/mcp) |
 | @upstash/context7-mcp    | [https://www.npmjs.com/package/@upstash/context7-mcp](https://www.npmjs.com/package/@upstash/context7-mcp) |
 | mcp-github               | [https://www.npmjs.com/package/@github/mcp](https://www.npmjs.com/package/@github/mcp) |
