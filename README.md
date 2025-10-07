@@ -7,8 +7,6 @@ La finalidad de este repositorio es mantener una configuración global, exportab
 
 Este proyecto contiene archivos de configuración (`mcp.json`, `package.json`, etc.) para definir y gestionar servidores MCP que pueden ser consultados por VSCode u otros clientes MCP.
 
----
-
 ## Demo
 
 <details>
@@ -20,8 +18,6 @@ Este proyecto contiene archivos de configuración (`mcp.json`, `package.json`, e
 <details>
 	<summary><strong>Utilizando MCP Github</strong></summary>
 </details>
-
----
 
 ## Estructura
 - `mcp.json`: Configuración de los servidores MCP (rutas, comandos, endpoints).
@@ -57,8 +53,6 @@ Este proyecto contiene archivos de configuración (`mcp.json`, `package.json`, e
 | mcp-atlassian            | [https://www.npmjs.com/package/@atlassian/mcp](https://www.npmjs.com/package/@atlassian/mcp) |
 | mcp-qase (unofficial)           | [https://github.com/rikuson/mcp-qase](https://github.com/rikuson/mcp-qase) |
 
----
-
 ## Errores conocidos
 
 <details>
@@ -68,8 +62,6 @@ Este proyecto contiene archivos de configuración (`mcp.json`, `package.json`, e
 		<li><strong>Solución:</strong> Instala Node.js de forma global desde <a href="https://nodejs.org/es/download/">nodejs.org</a> y asegúrate de que <code>npx</code> funciona en tu terminal.</li>
 	</ul>
 </details>
-
----
 
 ## Licencia
 ISC
