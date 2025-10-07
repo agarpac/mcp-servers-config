@@ -36,7 +36,7 @@ Este proyecto contiene archivos de configuración (`mcp.json`, `package.json`, e
 2. Realiza un `npm install`.
 3. Modifica `mcp.json` para añadir los tokens necesarios y además cambia la ruta absoluta del repositorio actual donde sea necesario (servers tipo "stdio principalmente"). Ejemplo:
 
-![alt text](image.png)
+![alt text](imgs/image.png)
 
 4. Configura tu cliente MCP (VSCode, Cursor, etc.) para consultar este archivo de configuración, y si no es posible, simplemente copypastea el contenido de mcp.json donde lo requiera tu cliente MCP.
 
