@@ -15,9 +15,9 @@
                 "/Users/agarrido/Projects/personal/mcp-servers-config/node_modules/@playwright/mcp"
             ]
         },
-        "atlassian": {
-            "command": "npx",
-            "args": ["-y", "mcp-remote", "https://mcp.atlassian.com/v1/sse"]
+        "atlassian-mcp": {
+            "type": "http",
+            "url": "https://mcp.atlassian.com/v1/sse"
         },
         "mcp-qase": {
             "command": "/Users/agarrido/Projects/personal/mcp-servers-config/node_modules/mcp-qase/build/index.js",
