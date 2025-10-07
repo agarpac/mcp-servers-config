@@ -1,0 +1,18 @@
+{
+  "name": "mcp-servers-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Github: agarpac",
+  "license": "ISC",
+  "dependencies": {
+  "@playwright/mcp": "^0.0.41",
+  "@upstash/context7-mcp": "^1.0.20",
+  "mcp-qase": "git+https://github.com/rikuson/mcp-qase.git"
+  }
+}
+  

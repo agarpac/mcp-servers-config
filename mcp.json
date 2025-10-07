@@ -1,0 +1,29 @@
+{
+    "servers": {
+        "context7": {
+            "type": "stdio",
+            "command": "npx",
+            "args": ["-y", "/Users/agarrido/Projects/personal/mcp-servers-config/node_modules/@upstash/context7-mcp"/*, "--api-key", "YOUR_API_KEY" */]
+        },
+        "github": {
+            "type": "http",
+            "url": "https://api.githubcopilot.com/mcp/"
+        },
+        "playwright": {
+            "command": "npx",
+            "args": [
+                "/Users/agarrido/Projects/personal/mcp-servers-config/node_modules/@playwright/mcp"
+            ]
+        },
+        "atlassian": {
+            "command": "npx",
+            "args": ["-y", "mcp-remote", "https://mcp.atlassian.com/v1/sse"]
+        },
+        "mcp-qase": {
+            "command": "/Users/agarrido/Projects/personal/mcp-servers-config/node_modules/mcp-qase/build/index.js",
+            "env": {
+                "QASE_API_TOKEN": "<YOUR_TOKEN>"
+            }
+        }
+    }
+}
