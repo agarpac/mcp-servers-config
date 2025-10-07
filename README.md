@@ -9,9 +9,11 @@ Este proyecto contiene archivos de configuración (`mcp.json`, `package.json`, e
 
 ## Demo
 <strong>Utilizando MCP Jira/Confluence</strong>
+
 ![alt text](imgs/image-jira.png)
 
 <strong>Utilizando MCP Qase</strong>
+
 ![alt text](imgs/image-qase-1.png)
 ![alt text](imgs/image-qase-2.png)
 
